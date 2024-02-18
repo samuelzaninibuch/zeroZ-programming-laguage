@@ -1,0 +1,35 @@
+welcome to zeroZ! here a preview of the code will do:
+to print use: println() you can use println("Hello world!") to print just "",
+if want print only a varible use println(x) will print just x or any varible name,
+to print both use '{}'  and put the varible inside like: println("hello {name}, you are {age} old!") with can be any varibles name on {} and strings on ""
+
+to define varible use:
+name:type = value
+with can be any varible name, and value depeding on the type, 
+all the types:
+int, float/doble, char and string, you don't need write any especial carater to value like:
+name:string = "value" 
+here just use:
+name:string = value
+
+also it have functions can use:
+function name(args){body} and function call: name(args) 
+
+also it have if elses, else if is currently not working, can use:
+if(args){body}
+
+comparators have:
+>, <, >=, <=, == !=, still don't have logic gates like and, or, xor, etc, but will add it soon
+
+also it includes input() with as sayed, will pick the value and print, currently only works on varible:
+age:int = input()
+you can add "" on () so:
+age:int = input("your age: ")
+and on the console/terminal:
+your age:
+.
+
+to run use on this file python main.py filename.py, in the future will make zeroz filename.zz and allow can be in other location,
+also have a example code on example.zz, can run it using: python main.py example.zz
+
+if have any ideas please comment it, or fork it

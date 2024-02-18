@@ -1,0 +1,8 @@
+age:int = input(your age: )
+name:string = input(your name: )
+if(age >= 18){
+    println("{name},you are an adult")
+} 
+if(age < 18) {
+    println("{name},you are not an adult")
+}
